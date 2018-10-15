@@ -32,6 +32,13 @@ elsif op =="%"
 else puts "Invalid Operator"
 end
 
+ File.open("twel.txt","a") do |line|
+line.puts "\r" + num1.to_s
+line.puts "\r" + num2.to_s
+line.puts "\r" + op.to_s
+line.puts "\r" + answer.to_s
+end
+
 puts "Do you choose Y/N"
 @ans=gets.chomp
  break if(@ans=="N")
