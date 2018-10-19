@@ -20,15 +20,20 @@ num2=gets.to_i
 
 
 if op =="+"
- puts "The addition is #{num1+num2}"
+ answer=num1+num2
+ puts "The addition is #{answer}"
 elsif op =="-"
- puts "The subtract is #{num1-num2}"
+ answer=num1-num2
+ puts "The subtract is #{answer}"
 elsif op =="*"
- puts "The multiplaction is #{num1*num2}"
+ answer=num1*num2
+ puts "The multiplaction is #{answer}"
 elsif op =="/"
- puts "The division is #{num1/num2}"
+ answer=num1/num2
+ puts "The division is #{answer}"
 elsif op =="%"
- puts "The remainder is #{num1%num2}"
+ answer=num1%num2
+ puts "The remainder is #{answer}"
 else puts "Invalid Operator"
 end
 
