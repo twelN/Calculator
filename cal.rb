@@ -13,7 +13,7 @@ puts "The remainder is #{num1%num2}"
 begin
 puts "Enter first number"
 num1=gets.to_i
-puts "Enter opreator(eg."+","-","*","/","%")"
+puts "Enter opreator like +,-,*,/,%"
 op=gets.chomp
 puts "Enter second number"
 num2=gets.to_i
